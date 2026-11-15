@@ -1,5 +1,7 @@
 # Ares Arcadia — Interplanetary Survival Guide: Martian Map (MVP)
 
+- https://ares-arcadia.vercel.app/
+
 Prototipo web bilingüe (EN / ES) para despliegue estático, desarrollado para el desafío **NASA Space Apps Challenge ("Interplanetary Survival Guide: Martian Map")** bajo el marco técnico **A.R.E.S HUD — Arcadia Planitia**.
 
 ## Datos Orbitales y Geológicos Ingestados
