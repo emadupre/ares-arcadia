@@ -1,0 +1,33 @@
+{
+  "name": "ares-arcadia-mvp",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ares Arcadia — Interplanetary Survival Guide: Martian Map (NASA Space Apps Challenge MVP)",
+  "scripts": {
+    "ingest-nasa": "node scripts/fetch-nasa-layers.mjs",
+    "generate-data": "node scripts/generate-arcadia-data.mjs",
+    "benchmark": "node scripts/benchmark-mission.mjs",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/three": "^0.169.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.0"
+  }
+}

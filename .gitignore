@@ -1,0 +1,19 @@
+# Dependencies & build caches
+node_modules/
+dist/
+dist-ssr/
+*.local
+*.tsbuildinfo
+
+# Environment & Vercel local links
+.env
+.env.*
+!.env.example
+.vercel/
+
+# Logs & OS artifacts
+logs/
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db

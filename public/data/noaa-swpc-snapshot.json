@@ -1,0 +1,39 @@
+{
+  "fetchedAtIso": "2026-11-15T11:50:15.809Z",
+  "source": "NOAA SWPC / GOES-18 Primary (Unthrottled Live Feed)",
+  "currentScales": {
+    "DateStamp": "2026-11-15",
+    "TimeStamp": "11:48:00",
+    "R": {
+      "Scale": "0",
+      "Text": "none",
+      "MinorProb": null,
+      "MajorProb": null
+    },
+    "S": {
+      "Scale": "0",
+      "Text": "none",
+      "Prob": null
+    },
+    "G": {
+      "Scale": "0",
+      "Text": "none"
+    }
+  },
+  "latestProton10MeV": {
+    "time_tag": "2026-11-15T11:40:00Z",
+    "satellite": 18,
+    "flux": 0.23860478401184082,
+    "energy": ">=10 MeV"
+  },
+  "peak24hProton10MeVPfu": 0.314,
+  "latestXrayLong": {
+    "time_tag": "2026-11-15T11:46:00Z",
+    "satellite": 18,
+    "flux": 5.288966349326074e-7,
+    "observed_flux": 5.398154030444857e-7,
+    "electron_correction": 1.091875923009411e-8,
+    "electron_contaminaton": false,
+    "energy": "0.1-0.8nm"
+  }
+}

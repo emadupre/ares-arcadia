@@ -1,0 +1,404 @@
+{
+  "generatedAtIso": "2026-11-15T11:49:56.475Z",
+  "studySite": {
+    "name": "Arcadia Planitia · Triple Contact Aa5 / Aa2 / Aa1",
+    "centerLatDeg": 47.5502,
+    "centerLonWestDeg": -163.1744,
+    "centerLonEastDeg": 196.8256,
+    "quadrantSizeMeters": 5000,
+    "quadrantBboxDeg": {
+      "minLon": -163.236889,
+      "minLat": 47.508023,
+      "maxLon": -163.111911,
+      "maxLat": 47.592377
+    }
+  },
+  "layers": {
+    "ctxLod10": {
+      "sourceUrlTemplate": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX/MapServer/tile/10/{row}/{col}",
+      "resolutionMetersPerPx": 20.4,
+      "tiles": [
+        {
+          "z": 10,
+          "row": 482,
+          "col": 191,
+          "localUrl": "/nasa-layers/ctx/ctx_z10_r482_c191.png",
+          "remoteUrl": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX/MapServer/tile/10/482/191",
+          "bytes": 129391,
+          "boundsDeg": [
+            -163.212891,
+            47.548828,
+            -163.125,
+            47.636719
+          ]
+        },
+        {
+          "z": 10,
+          "row": 482,
+          "col": 192,
+          "localUrl": "/nasa-layers/ctx/ctx_z10_r482_c192.png",
+          "remoteUrl": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX/MapServer/tile/10/482/192",
+          "bytes": 148002,
+          "boundsDeg": [
+            -163.125,
+            47.548828,
+            -163.037109,
+            47.636719
+          ]
+        },
+        {
+          "z": 10,
+          "row": 483,
+          "col": 191,
+          "localUrl": "/nasa-layers/ctx/ctx_z10_r483_c191.png",
+          "remoteUrl": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX/MapServer/tile/10/483/191",
+          "bytes": 122145,
+          "boundsDeg": [
+            -163.212891,
+            47.460938,
+            -163.125,
+            47.548828
+          ]
+        },
+        {
+          "z": 10,
+          "row": 483,
+          "col": 192,
+          "localUrl": "/nasa-layers/ctx/ctx_z10_r483_c192.png",
+          "remoteUrl": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX/MapServer/tile/10/483/192",
+          "bytes": 139068,
+          "boundsDeg": [
+            -163.125,
+            47.460938,
+            -163.037109,
+            47.548828
+          ]
+        }
+      ]
+    },
+    "ctxLod11": {
+      "sourceUrlTemplate": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX/MapServer/tile/11/{row}/{col}",
+      "resolutionMetersPerPx": 10.2,
+      "tiles": [
+        {
+          "z": 11,
+          "row": 965,
+          "col": 381,
+          "localUrl": "/nasa-layers/ctx/ctx_z11_r965_c381.png",
+          "remoteUrl": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX/MapServer/tile/11/965/381",
+          "bytes": 122531,
+          "boundsDeg": [
+            -163.256836,
+            47.548828,
+            -163.212891,
+            47.592773
+          ]
+        },
+        {
+          "z": 11,
+          "row": 965,
+          "col": 382,
+          "localUrl": "/nasa-layers/ctx/ctx_z11_r965_c382.png",
+          "remoteUrl": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX/MapServer/tile/11/965/382",
+          "bytes": 123450,
+          "boundsDeg": [
+            -163.212891,
+            47.548828,
+            -163.168945,
+            47.592773
+          ]
+        },
+        {
+          "z": 11,
+          "row": 965,
+          "col": 383,
+          "localUrl": "/nasa-layers/ctx/ctx_z11_r965_c383.png",
+          "remoteUrl": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX/MapServer/tile/11/965/383",
+          "bytes": 122827,
+          "boundsDeg": [
+            -163.168945,
+            47.548828,
+            -163.125,
+            47.592773
+          ]
+        },
+        {
+          "z": 11,
+          "row": 965,
+          "col": 384,
+          "localUrl": "/nasa-layers/ctx/ctx_z11_r965_c384.png",
+          "remoteUrl": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX/MapServer/tile/11/965/384",
+          "bytes": 137315,
+          "boundsDeg": [
+            -163.125,
+            47.548828,
+            -163.081055,
+            47.592773
+          ]
+        },
+        {
+          "z": 11,
+          "row": 966,
+          "col": 381,
+          "localUrl": "/nasa-layers/ctx/ctx_z11_r966_c381.png",
+          "remoteUrl": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX/MapServer/tile/11/966/381",
+          "bytes": 125863,
+          "boundsDeg": [
+            -163.256836,
+            47.504883,
+            -163.212891,
+            47.548828
+          ]
+        },
+        {
+          "z": 11,
+          "row": 966,
+          "col": 382,
+          "localUrl": "/nasa-layers/ctx/ctx_z11_r966_c382.png",
+          "remoteUrl": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX/MapServer/tile/11/966/382",
+          "bytes": 119937,
+          "boundsDeg": [
+            -163.212891,
+            47.504883,
+            -163.168945,
+            47.548828
+          ]
+        },
+        {
+          "z": 11,
+          "row": 966,
+          "col": 383,
+          "localUrl": "/nasa-layers/ctx/ctx_z11_r966_c383.png",
+          "remoteUrl": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX/MapServer/tile/11/966/383",
+          "bytes": 122066,
+          "boundsDeg": [
+            -163.168945,
+            47.504883,
+            -163.125,
+            47.548828
+          ]
+        },
+        {
+          "z": 11,
+          "row": 966,
+          "col": 384,
+          "localUrl": "/nasa-layers/ctx/ctx_z11_r966_c384.png",
+          "remoteUrl": "https://astro.arcgis.com/arcgis/rest/services/OnMars/CTX/MapServer/tile/11/966/384",
+          "bytes": 133493,
+          "boundsDeg": [
+            -163.125,
+            47.504883,
+            -163.081055,
+            47.548828
+          ]
+        }
+      ]
+    },
+    "hrscMola": {
+      "sourceUrlTemplate": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_MOLA_blend200ppx_HRSC_ClrShade_clon0dd_200mpp_lzw/1.0.0/default/default028mm/8/{row}/{col}.jpg",
+      "resolutionMetersPerPx": 200,
+      "tiles": [
+        {
+          "z": 8,
+          "row": 60,
+          "col": 23,
+          "localUrl": "/nasa-layers/trek/hrsc_mola_z8_r60_c23.jpg",
+          "remoteUrl": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_MOLA_blend200ppx_HRSC_ClrShade_clon0dd_200mpp_lzw/1.0.0/default/default028mm/8/60/23.jpg",
+          "bytes": 20122,
+          "boundsDeg": [
+            -163.828125,
+            47.109375,
+            -163.125,
+            47.8125
+          ]
+        },
+        {
+          "z": 8,
+          "row": 60,
+          "col": 24,
+          "localUrl": "/nasa-layers/trek/hrsc_mola_z8_r60_c24.jpg",
+          "remoteUrl": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_MOLA_blend200ppx_HRSC_ClrShade_clon0dd_200mpp_lzw/1.0.0/default/default028mm/8/60/24.jpg",
+          "bytes": 20602,
+          "boundsDeg": [
+            -163.125,
+            47.109375,
+            -162.421875,
+            47.8125
+          ]
+        }
+      ]
+    },
+    "vikingMdim21": {
+      "sourceUrlTemplate": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/{row}/{col}.jpg",
+      "resolutionMetersPerPx": 232,
+      "tiles": [
+        {
+          "z": 7,
+          "row": 30,
+          "col": 11,
+          "localUrl": "/nasa-layers/trek/viking_z7_r30_c11.jpg",
+          "remoteUrl": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/30/11.jpg",
+          "bytes": 37288,
+          "boundsDeg": [
+            -164.53125,
+            46.40625,
+            -163.125,
+            47.8125
+          ]
+        },
+        {
+          "z": 7,
+          "row": 30,
+          "col": 12,
+          "localUrl": "/nasa-layers/trek/viking_z7_r30_c12.jpg",
+          "remoteUrl": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/30/12.jpg",
+          "bytes": 34694,
+          "boundsDeg": [
+            -163.125,
+            46.40625,
+            -161.71875,
+            47.8125
+          ]
+        }
+      ]
+    }
+  },
+  "masterTrekQuadrant": {
+    "name": "Arcadia Planitia · Master JPL Mars Trek Regional Frame",
+    "centerLatDeg": 44.66,
+    "centerLonEastDeg": 185,
+    "centerLonWestDeg": -175,
+    "usgsRegionalUnits": [
+      {
+        "OBJECTID": 653,
+        "UnitSymbol": "Aa4",
+        "UnitName": "Arcadia Formation, member 4"
+      }
+    ],
+    "tiles": [
+      {
+        "layer": "Mars Trek HRSC+MOLA ClrShade (200 m/px)",
+        "localUrl": "/nasa-layers/trek/master_44N_175W_hrsc_z8_r64_c7.jpg",
+        "remoteUrl": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_MOLA_blend200ppx_HRSC_ClrShade_clon0dd_200mpp_lzw/1.0.0/default/default028mm/8/64/7.jpg",
+        "bytes": 20494,
+        "boundsDeg": [
+          -175.078125,
+          44.296875,
+          -174.375,
+          45
+        ]
+      },
+      {
+        "layer": "Mars Trek Viking MDIM21 (232 m/px)",
+        "localUrl": "/nasa-layers/trek/master_44N_175W_viking_z7_r32_c3.jpg",
+        "remoteUrl": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/default/default028mm/7/32/3.jpg",
+        "bytes": 38749,
+        "boundsDeg": [
+          -175.78125,
+          43.59375,
+          -174.375,
+          45
+        ]
+      }
+    ]
+  },
+  "perseveranceRawSamples": [
+    {
+      "key": "mcz",
+      "role": "Mastcam-Z Regolith Photometry",
+      "sol": 2024,
+      "instrument": "MCZ_LEFT",
+      "imageId": "ZL0_2024_0846622583_145EBY_N0930000ZCAM10058_1100LMJ",
+      "dateTakenUtc": "2026-10-30T09:21:53.576",
+      "title": "Mars Perseverance Sol 2024: Left Mastcam-Z Camera",
+      "localUrl": "/nasa-layers/perseverance/perseverance_mcz.jpg",
+      "remoteUrl": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02024/ids/edr/browse/zcam/ZL0_2024_0846622583_145EBY_N0930000ZCAM10058_1100LMJ02_800.jpg",
+      "bytes": 68610
+    },
+    {
+      "key": "navcam",
+      "role": "Navcam Hazard & Boulder Distribution",
+      "sol": 2024,
+      "instrument": "NAVCAM_LEFT",
+      "imageId": "NLG_2024_0846620381_164ECM_N0930000NCAM00518_00_2I3J",
+      "dateTakenUtc": "2026-10-30T08:44:57.868",
+      "title": "Mars Perseverance Sol 2024: Left Navigation Camera (Navcam)",
+      "localUrl": "/nasa-layers/perseverance/perseverance_navcam.jpg",
+      "remoteUrl": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02024/ids/edr/browse/ncam/NLG_2024_0846620381_164ECM_N0930000NCAM00518_00_2I3J01_800.jpg",
+      "bytes": 21266
+    },
+    {
+      "key": "hazcam",
+      "role": "Hazcam Near-Field Micro-Roughness",
+      "sol": 2023,
+      "instrument": "FRONT_HAZCAM_LEFT_A",
+      "imageId": "FLF_2023_0846549745_302ECM_N0930000FHAZ00206_01_295J",
+      "dateTakenUtc": "2026-10-29T13:07:42.945",
+      "title": "Mars Perseverance Sol 2023: Front Left Hazard Avoidance Camera (Hazcam)",
+      "localUrl": "/nasa-layers/perseverance/perseverance_hazcam.jpg",
+      "remoteUrl": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02023/ids/edr/browse/fcam/FLF_2023_0846549745_302ECM_N0930000FHAZ00206_01_295J01_800.jpg",
+      "bytes": 49158
+    }
+  ],
+  "worldviewEarthTiles": [
+    {
+      "label": "NASA GIBS MODIS Terra Western US (Fire/Smoke Analog West)",
+      "localUrl": "/nasa-layers/worldview/gibs_terra_wus_z6_r24_c10.jpg",
+      "remoteUrl": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2025-08-01/GoogleMapsCompatible_Level9/6/24/10.jpg",
+      "bytes": 16519,
+      "product": "MODIS_Terra_CorrectedReflectance_TrueColor"
+    },
+    {
+      "label": "NASA GIBS MODIS Terra Western US (Fire/Smoke Analog East)",
+      "localUrl": "/nasa-layers/worldview/gibs_terra_wus_z6_r24_c11.jpg",
+      "remoteUrl": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2025-08-01/GoogleMapsCompatible_Level9/6/24/11.jpg",
+      "bytes": 15258,
+      "product": "MODIS_Terra_CorrectedReflectance_TrueColor"
+    }
+  ],
+  "noaaSwpcSnapshotFile": "/data/noaa-swpc-snapshot.json",
+  "usgsFeaturesSummary": [
+    {
+      "dataset": "USGS Map I-1802-A/B/C (Arcadia Formation Members)",
+      "objectId": 2638,
+      "symbol": "Aa2",
+      "description": "Arcadia Formation, member 2"
+    },
+    {
+      "dataset": "USGS Map I-1802-A/B/C (Arcadia Formation Members)",
+      "objectId": 1798,
+      "symbol": "Aa1",
+      "description": "Arcadia Formation, member 1"
+    },
+    {
+      "dataset": "USGS Map I-1802-A/B/C (Arcadia Formation Members)",
+      "objectId": 666,
+      "symbol": "Aa5",
+      "description": "Arcadia Formation, member 5"
+    },
+    {
+      "dataset": "USGS SIM 3292 (Tanaka et al. 2014 Global Geology)",
+      "objectId": 1286,
+      "symbol": "lHl",
+      "description": "Late Hesperian lowland unit"
+    },
+    {
+      "dataset": "USGS SIM 3292 (Tanaka et al. 2014 Global Geology)",
+      "objectId": 1255,
+      "symbol": "Av",
+      "description": "Amazonian volcanic unit"
+    },
+    {
+      "dataset": "USGS SIM 3292 (Tanaka et al. 2014 Tectonic Structures)",
+      "objectId": 1662,
+      "symbol": "Structure/Contact",
+      "description": "Structure/Contact"
+    },
+    {
+      "dataset": "USGS SIM 3292 (Tanaka et al. 2014 Geologic Contacts)",
+      "objectId": 3637,
+      "symbol": "Structure/Contact",
+      "description": "Structure/Contact"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+export const MISSION_CONFIG = {
+  id: 'ares-arcadia-mvp',
+  name: 'Ares Arcadia — Interplanetary Survival Guide: Martian Map',
+  site: {
+    name: 'Arcadia Planitia · Triple Contact (Aa5 / Aa2 / Aa1)',
+    centerLatDeg: 47.5502,
+    centerLonEastDeg: 196.8256,
+    centerLonTrekDeg: -163.1744,
+    quadrantSizeMeters: 5000,
+    gridResolution: 50,
+    cellSizeMeters: 100,
+    baseElevationMeters: -3012,
+    radiationDatumMeters: -3000,
+    atmosphericScaleHeightMeters: 11100,
+    surfacePressureKpa: 0.61,
+    surfacePressureMbar: 6.1,
+    co2ColumnGramsPerCm2: 22,
+    ambientTempNominalC: -68,
+    ambientTempCryoMinC: -112,
+  },
+  physics: {
+    gravityEarth: 9.80665,
+    gravityMarsArcadia: 3.72243,
+    gravityRatio: 3.72243 / 9.80665, // 0.379582
+  },
+  suit: {
+    memuPlssMassKg: 104.0, // 230 lbm; xEMU lunar (177 kg) descartado
+    defaultAstronautMassKg: 75.0,
+    maxTotalMassKg: 220.0,
+    maxSampleMassKg: 7.0, // 26.06 N en Arcadia Planitia / 2.66 kgf aparentes
+    nominalPressureKpa: 29.6, // Delta P nominal del traje mEMU
+    stiffnessKThetaNmRad: 11.4, // Rigidez rotacional articular nominal mEMU (Nm/rad)
+    o2TotalCapacityMinutesBase: 240,
+    batteryCapacityWh: 1850,
+    baseLifeSupportWatts: 135,
+    uwbRadioWatts: 18,
+    cryoJointHeaterMaxWatts: 95,
+  },
+  radiation: {
+    rGcr0MicroSvPerHour: 22.0,
+    rAlbedoMicroSvPerHour: 5.5,
+    nominalSpeMicroSvPerHour: 0,
+    stormSpeMicroSvPerHour: 520.0,
+    alaraBudgetMinMicroSv: 250,
+    alaraBudgetMaxMicroSv: 500,
+    defaultAlaraBudgetMicroSv: 350,
+  },
+  thresholds: {
+    maxSafeSlopeDeg: 15.0,
+    hardBlockSlopeDeg: 18.0,
+    cosparShallowIceDepthMeters: 5.0,
+    cosparExclusionRadiusMeters: 500,
+    dustOpacityCriticalTau: 2.5,
+    heartRateTunnelVisionBpm: 140,
+    co2WarningMmHg: 4.5,
+    co2CriticalMmHg: 7.5,
+    responseLatencyHypercapniaSec: 10.0,
+    buddySeparationWarnMeters: 50,
+    buddySeparationCriticalMeters: 100,
+    returnMarginAmberRatio: 0.2,
+    headGazeDwellMs: 1500,
+    cuffSosHoldMs: 2000,
+    motionToPhotonBudgetMs: 15,
+    aStarTargetConvergenceMs: 12,
+    positioningErrorMaxMeters: 0.15,
+  },
+  referenceNotes: {
+    usgsMapReference: 'USGS Map I-1802 (Aa1/Aa2/Aa5) & USGS SIM 3292 Tanaka 2014 (Av/lHl)',
+    verifiedOrbitalSources: [
+      'NASA/JPL Mars Trek MOLA+HRSC ClrShade WMTS (200 m/px)',
+      'USGS Astrogeology / Esri OnMars CTX Global Mosaic LOD 11 (~10.2 m/px)',
+      'NASA/JPL Mars Trek Viking MDIM21 Color Mosaic (232 m/px)',
+    ] as const,
+    arcgisPolygonVertices: [
+      [47.7047, -163.2637],
+      [47.64015, -163.00552],
+      [47.38472, -163.08792],
+      [47.47124, -163.3406],
+    ] as const,
+  },
+} as const;
